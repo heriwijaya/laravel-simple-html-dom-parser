@@ -27,7 +27,7 @@ $html = HtmlDomParser::file_get_html($file);
 or 
 $html = HtmlDomParser::str_get_html($str);
 
-$elements = $dom->find($element_name);
+$elements = $html->find($element_name);
 ...
 
 ```
