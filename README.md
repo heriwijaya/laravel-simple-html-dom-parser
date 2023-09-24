@@ -3,7 +3,8 @@ laravel-simple-html-dom-parser
 
 Simple HTML DOM Parser for Laravel
 
-http://simplehtmldom.sourceforge.net/
+See Documentation
+https://simplehtmldom.sourceforge.io
 
 Requirement
 -----------
