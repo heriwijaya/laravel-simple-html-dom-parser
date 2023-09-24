@@ -1,0 +1,29 @@
+{
+    "name": "heriw/laravel-simple-html-dom-parser",
+    "description": "Laravel simple html dom parser",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Heriw\\LaravelSimpleHtmlDomParser\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "heriwijaya",
+            "email": "heriwijayana86@gmail.com",
+            "homepage": "https://github.com/heriwijaya"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "ext-mbstring": "*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Heriw\\LaravelSimpleHtmlDomParser\\HtmlDomParserServiceProvider"
+            ]
+        }
+    }
+}
