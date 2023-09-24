@@ -1,5 +1,4 @@
-laravel-simple-html-dom-parser
-==============================
+# laravel-simple-html-dom-parser
 
 Simple HTML DOM Parser for Laravel
 
@@ -12,14 +11,14 @@ Requirement
 - PHP Extensions   : iconv, mbstring
 - PHP INI Settings : allow_url_fopen = On
 
-Install
--------
+# Install
+
 ```php
 composer require heriw/laravel-simple-html-dom-parser
 ```
 
-Usage
------
+# Usage
+
 ```php
 use Heriw\LaravelSimpleHtmlDomParser\HtmlDomParser;
 
